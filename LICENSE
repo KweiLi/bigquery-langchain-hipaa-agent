@@ -1,0 +1,39 @@
+MIT License
+
+Copyright (c) 2024 Your Organization
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+HIPAA COMPLIANCE NOTICE:
+
+This software includes features designed to support HIPAA compliance, but compliance
+is the responsibility of the organization implementing this software. Organizations
+must:
+
+1. Sign Business Associate Agreements (BAAs) with all service providers
+2. Implement appropriate physical, technical, and administrative safeguards
+3. Conduct regular security assessments
+4. Train staff on HIPAA requirements
+5. Maintain appropriate documentation and policies
+
+This software does not guarantee HIPAA compliance and should be used as part of a
+comprehensive compliance program. Consult with legal and compliance professionals
+to ensure your implementation meets all HIPAA requirements.
