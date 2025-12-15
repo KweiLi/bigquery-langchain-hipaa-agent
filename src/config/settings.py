@@ -27,14 +27,8 @@ class Settings(BaseSettings):
     )
     
     # Vertex AI Configuration (replaces OpenAI)
-    vertex_ai_location: str = Field(
-        default="northamerica-northeast1",
-        description="Vertex AI location (must match GCP_LOCATION for compliance)"
-    )
-    vertex_ai_model: str = Field(
-        default="gemini-pro",
-        description="Vertex AI model to use"
-    )
+    google_api_key: str = Field(..., description="Google AI API key")
+    gemini_model: str = Field(default="gemini-pro", description="Gemini model to use")
 
     # LLM Configuration
     openai_api_key: Optional[str] = Field(

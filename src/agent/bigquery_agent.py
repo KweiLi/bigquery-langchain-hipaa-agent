@@ -11,7 +11,7 @@ from datetime import datetime
 from google.cloud import bigquery
 from google.oauth2 import service_account
 from langchain_core.tools import Tool
-from langchain_google_vertexai import ChatVertexAI
+from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 import structlog
@@ -60,13 +60,11 @@ class BigQueryAgent:
         )
         
         # Initialize LLM - Vertex AI (Canadian compliance)
-        self.llm = ChatVertexAI(
-            model_name=settings.vertex_ai_model,
+        self.llm = ChatGoogleGenerativeAI(
+            model=settings.gemini_model,
             temperature=settings.llm_temperature,
             max_output_tokens=settings.max_tokens,
-            location=settings.vertex_ai_location,
-            project=settings.gcp_project_id,
-            credentials=credentials
+            google_api_key=settings.google_api_key
         )
         
         logger.info(
